@@ -1,12 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { SquareComponent } from "../square/square.component";
+import { GameService } from '../game.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-board',
   standalone: true,
-  imports: [],
+  imports: [SquareComponent, CommonModule],
   templateUrl: './board.component.html',
   styleUrl: './board.component.css'
 })
-export class BoardComponent {
+export class BoardComponent implements OnInit{
+  constructor(public gameService: GameService){}
+
+  ngOnInit(): void {
+    
+  }
+
+
 
 }
