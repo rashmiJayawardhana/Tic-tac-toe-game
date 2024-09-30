@@ -1,2 +1,2 @@
 # Tic-tac-toe-game
-Built a responsive Angular TIC-TAC-TOE game from scratch, then deployed it as an installable Progressive Web App (PWA) using Vercel.
+Developed a responsive Tic-Tac-Toe game from scratch using Angular. The project includes interactive gameplay logic, responsive design, and a clean user interface. Deployed on Vercel for seamless accessibility and optimized performance.
