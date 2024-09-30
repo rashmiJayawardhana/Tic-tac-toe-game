@@ -1,0 +1,10 @@
+<div class="game-square rounded-lg border" 
+     (click)="changePlayer()" 
+     [ngClass]="{noClick: gameService.winner}">
+  <p [ngClass]="{
+      'text-yellow-400': square.state === 'X',
+      'text-teal-400': square.state === 'O'
+    }">
+    {{square.state}}
+  </p>
+</div>
